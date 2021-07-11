@@ -20,6 +20,7 @@ Here is an example of the result.
 | Configure Security Group   | default                 |
 
 
+
 ### Transferring `Dockerfile`, `docker-compose.yml` and `app.py` files to a dedicated server.
 
     # your_pairkey.pem is a key pair for connecting to an EC2 instance
