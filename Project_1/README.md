@@ -7,6 +7,12 @@ Here is an example of the result.
 ![result](https://github.com/SergeiSd/data-engineering-course/blob/main/Project_1/images/result.png)
 
 
+### Prerequisites
+
+![](https://img.shields.io/badge/Docker-19.03.8-inactivegreen) ![](https://img.shields.io/badge/docker--compose-1.25%2F0-inactivegreen)
+
+
+
 ### Running a dedicated server on AWS EC2 platform based on Linux.
 
 
