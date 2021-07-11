@@ -4,5 +4,5 @@ Create Docker and docker-compose files to run a Python application (simple hello
 
 Here is Here is an example of the result.
 
-
+![](https://github.com/SergeiSd/data-engineering-course/tree/main/Project_1/images/result.png)
 
