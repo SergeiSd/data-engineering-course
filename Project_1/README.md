@@ -48,3 +48,11 @@ Here is an example of the result.
     
     # From your project directory
     sudo docker-compose up
+
+
+### Installing
+
+Just git clone this repo and you are good to go.
+    
+    # sudo apt-get install subversion
+    svn export https://github.com/SergeiSd/data-engineering-course/trunk/Project_1
