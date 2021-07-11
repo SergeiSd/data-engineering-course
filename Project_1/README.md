@@ -35,3 +35,9 @@ Here is an example of the result.
     # your_IPv4 is public IPv4 DNS (Ex. ec1-2-34-56-789.eu-central-1.compute.amazonaws.com)
         
     ssh -i "your_pairkey.pem"  your_IPv4
+    
+    
+### Build and run with Compose
+    
+    # From your project directory
+    sudo docker-compose up
