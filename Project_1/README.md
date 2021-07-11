@@ -31,7 +31,7 @@ Here is an example of the result.
 
 ### Connect to instance EC2
         
-     # your_pairkey.pem is a key pair for connecting to an EC2 instance
-     # your_IPv4 is public IPv4 DNS (Ex. ec1-2-34-56-789.eu-central-1.compute.amazonaws.com)
+    # your_pairkey.pem is a key pair for connecting to an EC2 instance
+    # your_IPv4 is public IPv4 DNS (Ex. ec1-2-34-56-789.eu-central-1.compute.amazonaws.com)
         
-     ssh -i "your_pairkey.pem"  your_IPv4
+    ssh -i "your_pairkey.pem"  your_IPv4
