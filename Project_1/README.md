@@ -6,15 +6,17 @@ Here is an example of the result.
 
 ![result](https://github.com/SergeiSd/data-engineering-course/blob/main/Project_1/images/result.png)
 
+---
 
 ### Prerequisites
 
 ![](https://img.shields.io/badge/Docker-19.03.8-inactivegreen) ![](https://img.shields.io/badge/docker--compose-1.25.0-inactivegreen)
 
-
+---
 
 ### Running a dedicated server on AWS EC2 platform based on Linux.
 
+Parameters for launch instance.
 
 | Parameter                  |                         |
 | ---------------------------|:-----------------------:|
@@ -25,7 +27,7 @@ Here is an example of the result.
 | Add Tags                   | default                 |
 | Configure Security Group   | default                 |
 
-
+---
 
 ### Transferring `Dockerfile`, `docker-compose.yml` and `app.py` files to a dedicated server.
 
@@ -35,6 +37,7 @@ Here is an example of the result.
     
     scp -r -i your_pairkey.pem Dockerfile docker-compose.yml app.py your_IPv4:your_directory
 
+---
 
 ### Connect to instance EC2
         
@@ -42,13 +45,17 @@ Here is an example of the result.
     # your_IPv4 is public IPv4 DNS (Ex. ec1-2-34-56-789.eu-central-1.compute.amazonaws.com)
         
     ssh -i "your_pairkey.pem"  your_IPv4
-    
+
+---    
     
 ### Build and run with Compose
-    
+
+Run Python application inside container on dedicated server.
+
     # From your project directory
     sudo docker-compose up
 
+---
 
 ### Installing
 
