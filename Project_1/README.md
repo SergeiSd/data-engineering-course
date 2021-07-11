@@ -9,7 +9,7 @@ Here is an example of the result.
 
 ### Prerequisites
 
-![](https://img.shields.io/badge/Docker-19.03.8-inactivegreen) ![](https://img.shields.io/badge/docker--compose-1.25%2F0-inactivegreen)
+![](https://img.shields.io/badge/Docker-19.03.8-inactivegreen) ![](https://img.shields.io/badge/docker--compose-1.25.0-inactivegreen)
 
 
 
