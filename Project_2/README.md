@@ -4,7 +4,7 @@ Create a program to implement Word Count using PySpark.
 
 Here is an example of the result.
 
-![result](https://github.com/SergeiSd/data-engineering-course/tree/main/Project_2/images/result.png)
+![result](https://github.com/SergeiSd/data-engineering-course/blob/main/Project_2/images/result.png)
 
 ---
 
