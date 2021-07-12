@@ -15,12 +15,15 @@ Here is an example of the result.
 ---
 
     
-### Build and run with Compose
+### Build and run 
 
-Run Python application inside container on dedicated server.
+Running a python application using "Alice in Wonderland" for word count and output the first 20 words.
 
     # From your project directory
-    sudo docker-compose up
+    spark-submit word_count.py \
+        --name_file='alice_in_wonderland.txt' \
+        --num_words=20
+
 
 ---
 
@@ -29,4 +32,4 @@ Run Python application inside container on dedicated server.
 Just git clone this repo and you are good to go.
     
     # sudo apt-get install subversion
-    svn export https://github.com/SergeiSd/data-engineering-course/trunk/Project_1
+    svn export https://github.com/SergeiSd/data-engineering-course/trunk/Project_2
