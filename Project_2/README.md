@@ -10,7 +10,7 @@ Here is an example of the result.
 
 ### Prerequisites
 
-![](https://img.shields.io/badge/Docker-19.03.8-inactivegreen) ![](https://img.shields.io/badge/docker--compose-1.25.0-inactivegreen)
+![](https://img.shields.io/badge/Spark-3.1.1-inactivegreen) ![](https://img.shields.io/badge/PySpark-3.8.10-inactivegreen) ![](https://img.shields.io/badge/nltk.corpus-3.6.2-inactivegreen)
 
 ---
 
