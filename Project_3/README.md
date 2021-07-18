@@ -4,7 +4,7 @@ Install and run PostgresQL database and create table.
 
 Here is an example of the result.
 
-![result](https://github.com/SergeiSd/data-engineering-course/tree/main/Project_3/images/result_project_3.png)
+![result](https://github.com/SergeiSd/data-engineering-course/blob/main/Project_3/images/result_project_3.png)
 
 ---
 
