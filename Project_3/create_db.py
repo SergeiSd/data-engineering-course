@@ -3,6 +3,7 @@ import psycopg2
 
 from psycopg2.extensions import ISOLATION_LEVEL_AUTOCOMMIT
 from psycopg2 import Error
+from psycopg2 import sql
 from typing import Optional, Union
 
 
@@ -78,7 +79,7 @@ def create_connection(db_user: str, db_password: str, db_host: str,
         return connection
 
 
-def create_database(connection:
+def create_database(db_name: str, connection:
                     psycopg2.extensions.connection) -> Union[bool, None]:
     """Database creation in PostgreSQL.
 
@@ -86,6 +87,10 @@ def create_database(connection:
 
     Parameters:
     ----------
+        - db_name: type[`str`]
+
+        A database name.
+
         - connection: type[`psycopg2.extensions.connection`]
 
         A connection object to a PostgreSQL database instance.
@@ -100,8 +105,10 @@ def create_database(connection:
 
     print('Database creation...')
     try:
-        create_db_query = 'CREATE DATABASE sensor_data'
-        cursor.execute(create_db_query)
+        cursor.execute(
+            sql.SQL("CREATE DATABASE {}")
+               .format(sql.Identifier(db_name))
+        )
         print('The database has been created successfully.')
     except (Exception, Error) as error:
         print(error)
@@ -159,7 +166,7 @@ if __name__ == "__main__":
         args.port
     )
 
-    if create_database(connection):
+    if create_database(args.db_name, connection):
         connection = create_connection(
             args.user,
             args.password,
